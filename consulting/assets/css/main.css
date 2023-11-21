@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.collapsediv {
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.btn1 {
+  width: 200px;
+  height: 30px;
+  background-color: #EB566C;
+  color: aliceblue;
+  border: none;
+}
+
+section {
+  background-image: url();
+  position: relative;
+}
+
+.content1 {
+  position: absolute;
+  top: 158px;
+  left: 120px;
+}
+
+.singlecat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 30px;
+  background-color: white;
+  height: max-content;
+}
+.singlecat i {
+  font-size: 70px;
+  padding: 25px;
+}
+.singlecat h2 {
+  padding: 20px;
+}
+.singlecat p {
+  padding: 20px;
+}
+
+.singlecat:hover {
+  transform: translateY(-5px);
+  background-color: red;
+}
+
+#icon {
+  display: flex;
+}
+
+#ourBestservices {
+  width: 100%;
+  height: 700px;
+  background-color: rgb(169, 159, 159);
+}
+#ourBestservices .ourbesttopservices {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+#ourBestservices .ourbesttopservices p {
+  margin-bottom: 0;
+  font-size: 28px;
+  font-weight: 500;
+  padding: 20px;
+}
+#ourBestservices .figure {
+  width: 30px;
+  height: 2px;
+  background-color: #EB566C;
+}
+#ourBestservices .mainOurBest {
+  font-size: 50px;
+  font-weight: 900;
+  color: #092C3F;
+}
+
+#supportCompany {
+  width: 100%;
+  height: auto;
+  background-image: url(/assets/img/section_bg02.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#supportCompany .container {
+  padding: 20px;
+}
+#supportCompany .content {
+  width: auto;
+  height: 500px;
+}
+#supportCompany .content img {
+  width: 90%;
+  height: auto;
+  padding: 20px;
+}
+#supportCompany .supportParag {
+  color: white;
+}
+#supportCompany .supportParag button {
+  background-color: #FF2147;
+  color: white;
+  border: none;
+  padding: 7px;
+}
+
+#servicesAreaSection {
+  width: 100%;
+  height: auto;
+}
+#servicesAreaSection .ourPortfilo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#servicesAreaSection .portfilo {
+  width: 30px;
+  height: 2px;
+  background-color: #EB566C;
+}
+#servicesAreaSection p {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 20px;
+  color: #EB566C;
+}
+
+.servicesArea {
+  position: relative;
+}
+.servicesArea .paragraphServices {
+  width: 85%;
+  height: auto;
+  background-color: #FF2147;
+  position: absolute;
+  margin-top: -50px;
+  padding: 20px 0px;
+}
+.servicesArea img {
+  max-width: 100%;
+  height: auto;
+}
